@@ -12,6 +12,7 @@
 {
     UICollisionBehavior* collisionBehavior;
     UIPushBehavior* pushBehavior;
+    NSMutableArray *items;
 }
 
 @property (nonatomic, weak) UIImageView *twitter;
@@ -32,11 +33,14 @@
     view.clipsToBounds = YES;
     
     [self.view addSubview:view];
+    [items addObject:view];
 }
 
 
 -(void)loadView {
     [super loadView];
+    
+    items = [NSMutableArray array];
     
     UIImageView *twitter = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"iconmonstr-twitter-icon"]];
     twitter.tag = 18;
@@ -46,6 +50,7 @@
     self.twitter.center = self.view.center;
     
     [self.view addSubview:twitter];
+    [items addObject:twitter];
     
     for(int i=0; i<100; i++) {
         [self makeView];
@@ -68,7 +73,7 @@
     self.animator = [[UIDynamicAnimator alloc] initWithReferenceView:self.view];
     
     
-    collisionBehavior = [[UICollisionBehavior alloc] initWithItems:[self.view subviews]];
+    collisionBehavior = [[UICollisionBehavior alloc] initWithItems:items];
     collisionBehavior.collisionDelegate = self;
     collisionBehavior.translatesReferenceBoundsIntoBoundary = YES;
     

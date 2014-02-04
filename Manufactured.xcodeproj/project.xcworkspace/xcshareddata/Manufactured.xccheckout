@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>D27CC8F9-252C-4F69-9A9C-C07881215AF4</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Manufactured</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>9BB13513-9257-4C7F-9EEA-40054B8C290B</key>
+		<string>https://github.com/dimplejuno/manufactured.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Manufactured.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>9BB13513-9257-4C7F-9EEA-40054B8C290B</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/dimplejuno/manufactured.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>9BB13513-9257-4C7F-9EEA-40054B8C290B</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>9BB13513-9257-4C7F-9EEA-40054B8C290B</string>
+			<key>IDESourceControlWCCName</key>
+			<string>manufactured</string>
+		</dict>
+	</array>
+</dict>
+</plist>
